@@ -9,7 +9,7 @@ Create access key for programmatic access for the user.
 install AWS CLI
 open VSC
 do : aws configure (add both access and secret keys)
-create an S3 bucket via console and keep it open for public access (NOTE: DO NOT store any personal data in it as its publically accessible)
+create an S3 bucket via console  (NOTE: DO NOT store any personal data in it if it is set to: open for public access as its publically accessible)
 copy the URI of the bucket
 in vsc terminal: aws s3 ls 
  aws s3 cp <paste the uri> # means copy on our system in present location
