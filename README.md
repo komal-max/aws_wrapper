@@ -16,6 +16,6 @@ in vsc terminal: aws s3 ls
  install boto 3 simply using: pip install boto3
  boto takes creds from aws cli
 
- create a new .py file and import boto and call the fucntion.
+ create a new .py file(in my case its fn/-caller.py) and import boto and call the fucntion.
  create the file and add that file that you want to upload to s3
  check the bucket and the file should be uploaded.
